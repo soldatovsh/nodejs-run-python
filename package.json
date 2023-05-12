@@ -1,0 +1,32 @@
+{
+  "name": "test-py3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "surge": "npx surge dist 10embarrassed-expansion.surge.sh",
+    "dist": "yarn build && yarn surge",
+    "show": "yarn dist"
+  },
+  "devDependencies": {
+    "sass": "^1.37.5",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "4.6.1",
+    "bootstrap-vue": "2.22.0",
+    "cannon-es": "^0.20.0",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "portal-vue": "^2.1.7",
+    "vite": "^4.0.4",
+    "vite-plugin-mix": "^0.4.0",
+    "vue": "^2.6.14"
+  }
+}
